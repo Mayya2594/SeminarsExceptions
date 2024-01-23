@@ -27,6 +27,6 @@ public class Program {
                 result.add(i);
             }
         }
-        if (result.size() > 0) throw new RuntimeException(String.format("В массиве присутствуют null на позициях: %s", String.valueOf(result)));
+        if (result.size() > 0) throw new RuntimeException("В массиве присутствуют null на позициях: " + String.valueOf(result));
     }
 }
